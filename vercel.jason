@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "music-album",
+  "build": [{ "src": "index.js", "uses": "@versal/node" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "@index.js"
+    }
+  ]
+}
